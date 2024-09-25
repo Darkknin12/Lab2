@@ -1,0 +1,15 @@
+# Negeer alle bestanden in de map cache
+cache/
+
+# Negeer alle .sql-bestanden
+*.sql
+
+# Negeer specifiek bestand a.txt
+a.txt
+
+# Negeer alles in de bin-map, behalve het bestand bin/f.pkg
+bin/
+!bin/f.pkg
+
+# Negeer een specifieke directory met speciale tekens
+\#backup
